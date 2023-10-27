@@ -12,7 +12,7 @@ int divideORnot(vector<int>&arr)
         totalSum += arr[i];
     }
     int prefix = 0; 
-    for (int i = 0; i < n-1; i++)
+    for (int i = 0; i < n; i++)
     {
         prefix += arr[i];
         int ans = totalSum - prefix;

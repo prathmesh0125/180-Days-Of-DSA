@@ -19,6 +19,6 @@ int MaxSubbarraySum(int arr[],int n){
 }
 
 int main(){
-    int arr[4]={4,-6,2,8};
-    cout<<MaxSubbarraySum(arr,4);
+    int arr[8]={3,4,-5,8,-12,7,6,-2};
+    cout<<MaxSubbarraySum(arr,8);
 }
