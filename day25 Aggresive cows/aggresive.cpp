@@ -2,6 +2,7 @@
 using namespace std;
 #include<vector>
 int aggresiveCows(int arr[],int n,int k){
+    // first ste is sorting
 int start=1;
 int end=arr[n-1]-arr[0];
 int ans=0;
