@@ -19,7 +19,7 @@ string add(string num1,string num2){
        sum=num1[index1]-'0'+carry;
        carry=sum/10;
        char c='0'+sum%10;
-       ans+=c;;
+       ans+=c;
        index1--;
     }
     if(carry){
@@ -30,7 +30,7 @@ string add(string num1,string num2){
 
 }
 int main(){
-    string num1="200";
-    string num2="21";
+    string num1="123";
+    string num2="13";
    cout<<add(num1,num2);
 }
