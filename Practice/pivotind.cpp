@@ -25,7 +25,7 @@ int MinIndex(int arr[], int n)
     int end = n - 1;
     int mid = start + (end - start) / 2;
     int ans = arr[0];
-    while (start<=end)
+    while (start <= end)
     {
         if (arr[mid] > arr[0])
         {
@@ -33,7 +33,7 @@ int MinIndex(int arr[], int n)
         }
         else
         {
-            ans =arr[mid];
+            ans = arr[mid];
             end = mid - 1;
         }
         mid = start + (end - start) / 2;
@@ -44,6 +44,6 @@ int main()
 {
 
     int arr[7] = {2, 3, 4, 5, 1, 2, 3};
-    cout << "Peak index " << pivotIndex(arr, 7)<<endl;
+    cout << "Peak index " << pivotIndex(arr, 7) << endl;
     cout << "Minimum  index " << MinIndex(arr, 7);
 }
