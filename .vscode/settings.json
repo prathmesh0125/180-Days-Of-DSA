@@ -5,5 +5,6 @@
         "istream": "cpp",
         "cmath": "cpp",
         "vector": "cpp"
-    }
+    },
+    "code-runner.runInTerminal": true
 }
