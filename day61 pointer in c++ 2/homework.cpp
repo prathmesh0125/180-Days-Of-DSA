@@ -14,6 +14,6 @@ char c[2] = {'a', 'b'};
 char *ptr=c;
 cout<<*ptr<<endl;
 // char *ptr = &c[0];
-cout << static_cast<void*>(ptr) << " ";
+// cout << static_cast<void*>(ptr) << " ";
 
 }
