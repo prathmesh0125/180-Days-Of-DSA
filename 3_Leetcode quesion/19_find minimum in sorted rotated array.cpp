@@ -13,7 +13,7 @@ while(start<end){
   }
   else
   {
-  end;
+  end=mid;
   }
 
 }
