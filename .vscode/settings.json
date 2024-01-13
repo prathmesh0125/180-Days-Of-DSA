@@ -4,7 +4,10 @@
         "ostream": "cpp",
         "istream": "cpp",
         "cmath": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "*.tcc": "cpp",
+        "fstream": "cpp",
+        "iosfwd": "cpp"
     },
     "code-runner.runInTerminal": true
 }
