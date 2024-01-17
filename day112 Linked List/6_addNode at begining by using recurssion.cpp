@@ -13,16 +13,16 @@ public:
   }
 };
 
-node *createLinkedList(int arr[], int index, int n)
+node *createLinkedList(int arr[], int index, int n, node *prev)
 {
   if (index == n)
   {
-    return NULL;
+    return prev;
   }
   node *temp;
   temp = new node(arr[index]);
-  temp->next = createLinkedList(arr, index + 1, n);
-  return temp;
+  temp->next = prev;
+  return createLinkedList(arr, index + 1, n, temp);
 }
 void printLinkedList(node *head)
 {
@@ -38,7 +38,7 @@ int main()
   node *head;
   head = NULL;
   int arr[] = {2, 3, 4, 5};
-  head = createLinkedList(arr, 0, 4);
+  head = createLinkedList(arr, 0, 4, NULL);
 
   // print linked list;
   printLinkedList(head);
