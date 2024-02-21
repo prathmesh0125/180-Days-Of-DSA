@@ -7,7 +7,8 @@
         "vector": "cpp",
         "*.tcc": "cpp",
         "fstream": "cpp",
-        "iosfwd": "cpp"
+        "iosfwd": "cpp",
+        "queue": "cpp"
     },
     "code-runner.runInTerminal": true
 }
